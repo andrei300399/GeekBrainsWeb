@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Show</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+            <header class="product-show__header">
+                <a href="#" class="logo"><img src="img/logo.svg" alt="logo"></a>
+                <ul class="menu">
+                    <li class="menu__list-item ">
+                        <a href="index.html" class="menu__link">Home</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="product.html" class="menu__link">Products</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__link">History</a>
+                    </li>
+                    <li class="menu__list-item menu--active">
+                        <a href="#" class="menu__link">Showroom</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="contacts.html" class="menu__link">Contact</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="#" class="menu__link"><img src="img/icon-search.svg" alt="icon search"></a>
+                    </li>
+                </ul>
+            </header>
+            
+        <main>
+
+            <div class="product-show__details">
+                <ul class="product-show__list">
+                    <li class="product-show__item product-show__item--active"><a href="#" class="product-show__link">All</a></li>
+                    <li class="product-show__item"><a href="#" class="product-show__link">Home</a></li>
+                    <li class="product-show__item"><a href="#" class="product-show__link">Office</a></li>
+                    <li class="product-show__item"><a href="#" class="product-show__link">Forniture</a></li>
+                    <li class="product-show__item"><a href="#" class="product-show__link">Modern</a></li>
+                    <li class="product-show__item"><a href="#" class="product-show__link">Classic</a></li>
+                </ul>
+                <div class="product-show__content">
+                    <div class="column">
+                        <img src="img/slider1.png" alt="big red product" class="product-show__big-img">
+                        <ul class="row__images">
+                            <li class="image__item "><a href="#" class="image__link"><img src="img/controll1.png" alt="small product 1" class="image"></a></li>
+                            <li class="image__item"><a href="#" class="image__link"><img src="img/controll11.png" alt="small product 2" class="image"></a></li>
+                            <li class="image__item image__item--active"><a href="#" class="image__link"><img src="img/slider1.png" alt="small product 3" class="image"></a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h2 class="column__heading">Fishnet chair</h2>
+                        <h4 class="red__heading">Hot deal</h4>
+                        <p class="product-show__price">$ <span class="big">36.7</span> /sq</p>
+                        <a href="#" class="product-show__btn">order us <img src="img/arrow-2.svg" alt="icon arrow"></a>
+                        <p class="product-show">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="product-show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, recusandae.</p>
+                        <p class="product-show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, iusto neque. Ratione, minus? Delectus, consequuntur.</p>
+                        <p class="product-show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam hic expedita dignissimos atque. Quisquam, eos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trending related">
+                <div class="trending__text">
+                    <h3 class="heading">Related products</h3>
+                    <a href="#" class="featured__btn">Explore all <img src="img/icon-arrow.svg" alt="icon arrow"></a>
+                </div>
+                <ul class="trending__products">
+                    <li class="trending__item"><a href="#" class="trending__link"><img src="img/product-11.png"
+                                alt="product 1"></a></li>
+                    <li class="trending__item"><a href="#" class="trending__link"><img src="img/product-21.png"
+                                alt="product 2"></a></li>
+                    <li class="trending__item"><a href="#" class="trending__link"><img src="img/product-31.png"
+                                alt="product 3"></a></li>
+                </ul>
+            </div>
+            
+            
+        </main>
+        <footer class="product-show__footer">
+            <div class="footer__content">
+                <div class="contact-us">
+                    <h4 class="first-text first-text--black">Contact us</h4>
+                    <p class="footer__text">132A Bridge Road Richmond VIC
+                        Australia.</p>
+                    <p class="footer__text">Talk to us on 1300 132
+                        info@interior.com</p>
+                </div>
+                <div class="useful">
+                    <h4 class="first-text first-text--black">Useful information</h4>
+                    <div class="footer__columns">
+                        <ul class="useful__list">
+                            <li class="useful__item"><a href="#" class="useful__link">Sales terms</a></li>
+                            <li class="useful__item"><a href="#" class="useful__link">Customer care</a></li>
+                            <li class="useful__item"><a href="#" class="useful__link">Delivery</a></li>
+                        </ul>
+                        <ul class="useful__list">
+                            <li class="useful__item"><a href="#" class="useful__link">Architect accounts</a></li>
+                            <li class="useful__item"><a href="#" class="useful__link">Careers</a></li>
+                            <li class="useful__item"><a href="#" class="useful__link">Exchanges & returns</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="subscribe">
+                    <h4 class="first-text first-text--black">Let’s Stay in Touch!</h4>
+                    <p class="footer__text">Suscribe to know about our latest news, products and special offers
+                        just for suscribers.</p>
+                    <form action="#">
+                        <div class="footer__search">
+                            <input type="text" placeholder="your email address" class="footer__input">
+                            <button class="footer__btn"><img src="img/icons8-телеграмма-app.svg" alt="serch"></button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="footer__information">
+                <p class="footer__information__text">
+                    &copy; Copyright - INTERIOR 2016. All Rights Reserved.
+                </p>
+                <ul class="socials">
+                    <li class="social__item"><a href="#" class="social__link"><img src="img/Facebook_2.svg"
+                                alt="social"></a></li>
+                    <li class="social__item"><a href="#" class="social__link"><img src="img/Twitter_2.svg"
+                                alt="social"></a></li>
+                    <li class="social__item"><a href="#" class="social__link"><img src="img/Google+_2.svg"
+                                alt="social"></a></li>
+                    <li class="social__item"><a href="#" class="social__link"><img src="img/Pinterest_2.svg"
+                                alt="social"></a></li>
+                </ul>
+                <p class="footer__information__text">
+                    Terms & Conditions / Privacy policy & Cookies
+                </p>
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
